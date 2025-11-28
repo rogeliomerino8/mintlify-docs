@@ -1,6 +1,6 @@
 # Guía de Usuario - Sistema ROBIK
 
-Esta guía explica cómo utilizar las diferentes secciones del sistema ROBIK para la gestión de activos inmobiliarios. Está diseñada para ayudar a usuarios finales a entender y utilizar todas las funcionalidades disponibles.
+Esta guía explica cómo utilizar las diferentes secciones del sistema ROBIK para la gestión de activos inmobiliarios. Está diseñada para ayudar a usuarios finales a entender y utilizar todas las funcionalidades.
 
 ---
 
