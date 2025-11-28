@@ -1,0 +1,517 @@
+# Guía de Usuario - Sistema ROBIK
+
+Esta guía explica cómo utilizar las diferentes secciones del sistema ROBIK para la gestión de activos inmobiliarios. Está diseñada para ayudar a usuarios finales a entender y utilizar todas las funcionalidades disponibles.
+
+---
+
+## Tabla de Contenidos
+
+1. [Dashboard Principal](#dashboard-principal)
+2. [Alertas](#alertas)
+3. [Clientes](#clientes)
+4. [Proyectos](#proyectos)
+5. [Documentos](#documentos)
+6. [Facturas](#facturas)
+7. [Tareas](#tareas)
+8. [Administradores](#administradores)
+9. [Administradores de Empresa](#administradores-de-empresa)
+
+---
+
+## Dashboard Principal
+
+El Dashboard es la pantalla principal del sistema que aparece al iniciar sesión.
+
+### ¿Qué puedes hacer aquí?
+
+- **Ver lista de clientes**: Visualiza todos los clientes asociados a tu inmobiliaria o despacho.
+- **Ver proyectos**: Accede a los proyectos inmobiliarios de cada cliente.
+- **Ver tareas pendientes**: Consulta las tareas que requieren atención.
+- **Navegar a otras secciones**: Utiliza el menú superior para acceder a diferentes áreas del sistema.
+
+### Cómo navegar
+
+- Haz clic en el nombre de un cliente para ver sus proyectos y gráficas.
+- Haz clic en un proyecto para ver sus documentos y subproyectos.
+- Utiliza las migas de pan (breadcrumbs) en la parte superior para regresar a secciones anteriores.
+
+---
+
+## Alertas
+
+La sección de Alertas te ayuda a identificar situaciones que requieren atención inmediata.
+
+### ¿Qué puedes hacer aquí?
+
+#### Ver métricas financieras
+- **Pagos**: Visualiza el total de pagos recibidos de todos los clientes.
+- **Adeudos**: Consulta el total de facturas pendientes de pago.
+
+#### Revisar próximos vencimientos
+La sección muestra tres contadores:
+- **Esta semana**: Documentos que vencen en los próximos 7 días.
+- **Este mes**: Documentos que vencen en los próximos 30 días.
+- **Vencidos**: Documentos cuya fecha de vencimiento ya pasó.
+
+En la tabla de vencimientos puedes ver:
+- Nombre del documento (haz clic para abrirlo).
+- Estatus (Vigente o Vencido).
+- Fecha de vencimiento.
+- Los documentos vencidos aparecen en color rojo, y los que están próximos a vencer pueden aparecer en amarillo o rojo según la urgencia.
+
+#### Identificar clientes que requieren atención
+Esta sección muestra tres contadores:
+- **Clientes con documentos próximos a vencer**: Clientes que tienen documentos que vencen pronto.
+- **Clientes con documentos vencidos**: Clientes con documentos cuya fecha ya pasó.
+- **Clientes con facturas pendientes**: Clientes que tienen facturas sin pagar.
+
+En la tabla puedes ver:
+- Nombre del cliente (haz clic para ver sus proyectos).
+- Cantidad de documentos a vencer.
+- Cantidad de documentos vencidos.
+- Cantidad de facturas pendientes.
+
+### Cómo usar esta sección
+
+1. Revisa regularmente las alertas para identificar situaciones urgentes.
+2. Haz clic en cualquier documento de la lista de vencimientos para verlo y actualizar su información.
+3. Haz clic en el nombre de un cliente para acceder a sus proyectos y resolver las situaciones pendientes.
+
+---
+
+## Clientes
+
+La sección de Clientes te permite gestionar toda la información de tus clientes.
+
+### ¿Qué puedes hacer aquí?
+
+#### Registrar un nuevo cliente
+
+1. En el formulario del lado izquierdo, completa los siguientes campos:
+   - **Nombre / Razón Social** (obligatorio): Nombre completo del cliente o razón social si es una empresa.
+   - **Tipo** (obligatorio): Selecciona si es "Persona física" o "Persona moral".
+   - **Propietario**: Si seleccionaste "Persona moral", este campo se activa y es obligatorio.
+   - **Representante Legal**: Si seleccionaste "Persona moral", este campo se activa y es obligatorio.
+   - **Código**: Código interno de identificación (opcional).
+   - **RFC**: Registro Federal de Contribuyentes (opcional).
+   - **Dirección**: Dirección física del cliente (opcional).
+   - **Email** (obligatorio): Correo electrónico de contacto.
+   - **Descripción**: Información adicional sobre el cliente (opcional).
+
+2. Haz clic en el botón "Agregar" para guardar el nuevo cliente.
+
+#### Editar un cliente existente
+
+1. En la tabla del lado derecho, localiza el cliente que deseas editar.
+2. Haz clic en el ícono de lápiz (✏️) junto al cliente.
+3. Modifica los campos necesarios en el formulario.
+4. Haz clic en "Guardar" para aplicar los cambios.
+
+#### Eliminar un cliente
+
+1. En la tabla del lado derecho, localiza el cliente que deseas eliminar.
+2. Haz clic en el ícono de papelera (🗑️) junto al cliente.
+3. Confirma la eliminación en el cuadro de diálogo.
+
+**Nota importante**: No podrás eliminar un cliente si tiene proyectos, facturas o empresas asociadas. Primero debes eliminar o reasignar esos elementos.
+
+#### Ver lista de clientes
+
+En la tabla del lado derecho puedes ver:
+- Nombre del cliente.
+- Código.
+- RFC.
+- Correo electrónico.
+- Opciones para editar o eliminar (si tienes permisos).
+
+---
+
+## Proyectos
+
+La sección de Proyectos te permite gestionar los proyectos inmobiliarios de tus clientes.
+
+### ¿Qué puedes hacer aquí?
+
+#### Crear un nuevo proyecto
+
+1. En el formulario del lado izquierdo, completa los siguientes campos:
+   - **Proyecto** (obligatorio): Nombre del proyecto inmobiliario.
+   - **Cliente** (obligatorio): Selecciona el cliente al que pertenece el proyecto.
+   - **Abogados** (obligatorio): Selecciona uno o más abogados/administradores que estarán a cargo del proyecto. Puedes seleccionar múltiples opciones.
+   - **Descripción** (obligatorio): Detalles sobre el proyecto.
+
+2. Haz clic en el botón "Agregar" para crear el proyecto.
+
+#### Editar un proyecto
+
+1. En la tabla del lado derecho, localiza el proyecto que deseas editar.
+2. Haz clic en el ícono de lápiz (✏️) junto al proyecto.
+3. Modifica los campos necesarios.
+4. Haz clic en "Guardar" para aplicar los cambios.
+
+#### Eliminar un proyecto
+
+1. En la tabla del lado derecho, localiza el proyecto que deseas eliminar.
+2. Haz clic en el ícono de papelera (🗑️) junto al proyecto.
+3. Confirma la eliminación.
+
+#### Ver lista de proyectos
+
+En la tabla puedes ver:
+- Nombre del proyecto.
+- Cliente asociado.
+- Abogado(s) asignado(s).
+- Opciones para editar o eliminar.
+
+#### Acceder a un proyecto
+
+- Haz clic en el nombre del proyecto desde el Dashboard o desde la vista de cliente para ver:
+  - Documentos asociados al proyecto.
+  - Subproyectos (si los hay).
+  - Opción para subir nuevos documentos.
+  - Opción para crear subproyectos.
+
+---
+
+## Documentos
+
+La sección de Documentos te permite gestionar todos los documentos asociados a los proyectos.
+
+### ¿Qué puedes hacer aquí?
+
+#### Subir un nuevo documento
+
+1. En el formulario del lado izquierdo, completa los siguientes campos:
+   - **Cliente** (obligatorio): Selecciona el cliente al que pertenece el documento.
+   - **Proyecto** (obligatorio): Selecciona el proyecto. Este campo se activa después de seleccionar un cliente.
+   - **Vigencia**: Fecha de vencimiento del documento (opcional, pero recomendado para generar alertas).
+   - **Tipo** (obligatorio): Selecciona el tipo de documento:
+     - Contrato de obra
+     - Propuesta de trabajo
+     - Reconocimiento de adeudo
+     - RFC
+     - Anexos de pagos
+     - Cotización
+     - CPCV
+     - Contrato de inversión
+     - Sesiones de comité
+     - Anexos de proyecto
+     - Carta instrucción
+     - Carta intención
+     - Renuncias
+     - Avaluo
+     - Contrato
+     - Escritura
+     - Factura
+     - Predial
+     - General
+   - **Documento**: Haz clic en el área de carga de archivo y selecciona el archivo (formato PDF o JPG).
+   - **Descripción**: Información adicional sobre el documento (opcional).
+   - **Ubicación/Acción**: Notas sobre dónde se encuentra físicamente el documento o qué acción se requiere (opcional).
+
+2. Haz clic en el botón "Agregar" para subir el documento.
+
+**Nota**: El sistema procesará automáticamente el documento para extraer información (OCR) y permitir búsquedas inteligentes.
+
+#### Editar un documento
+
+1. En la tabla del lado derecho, localiza el documento que deseas editar.
+2. Haz clic en el ícono de lápiz (✏️) junto al documento.
+3. Modifica los campos necesarios (no puedes cambiar el archivo una vez subido).
+4. Haz clic en "Guardar" para aplicar los cambios.
+
+#### Eliminar un documento
+
+1. En la tabla del lado derecho, localiza el documento que deseas eliminar.
+2. Haz clic en el ícono de papelera (🗑️) junto al documento.
+3. Confirma la eliminación.
+
+#### Ver y acceder a documentos
+
+En la tabla puedes ver:
+- Cliente asociado (haz clic para ver sus proyectos).
+- Proyecto asociado (haz clic para ver el proyecto).
+- Nombre del archivo (haz clic para abrir y ver el documento).
+- Tipo de documento.
+- Ubicación/Acción.
+- Fecha de vigencia.
+- Opciones para editar o eliminar.
+
+#### Ver un documento
+
+- Desde la tabla, haz clic en el nombre del archivo para abrirlo.
+- En la vista del documento podrás:
+  - Ver el archivo completo.
+  - Consultar información extraída automáticamente del documento.
+  - Hacer preguntas sobre el documento usando el chat inteligente (si está disponible).
+
+---
+
+## Facturas
+
+La sección de Facturas te permite gestionar las facturas de tus clientes.
+
+### ¿Qué puedes hacer aquí?
+
+#### Registrar una nueva factura
+
+1. En el formulario del lado izquierdo, completa los siguientes campos:
+   - **Folio** (obligatorio): Número de folio de la factura.
+   - **Cliente** (obligatorio): Selecciona el cliente al que pertenece la factura.
+   - **Fecha** (obligatorio): Fecha de emisión de la factura.
+   - **Monto** (obligatorio): Monto base de la factura (sin IVA).
+   - **IVA**: Monto del IVA (opcional). El sistema calculará automáticamente el total.
+   - **Total**: Se calcula automáticamente como Monto + IVA.
+   - **Estatus** (obligatorio): Selecciona "Pendiente" o "Pagada".
+   - **Concepto** (obligatorio): Descripción del servicio o producto facturado.
+
+2. Haz clic en el botón "Agregar" para registrar la factura.
+
+#### Editar una factura
+
+1. En la tabla del lado derecho, localiza la factura que deseas editar.
+2. Haz clic en el ícono de lápiz (✏️) junto a la factura.
+3. Modifica los campos necesarios.
+4. Haz clic en "Guardar" para aplicar los cambios.
+
+#### Cambiar el estatus de una factura
+
+- Al editar una factura, puedes cambiar su estatus de "Pendiente" a "Pagada" o viceversa.
+- Esto actualizará las métricas en la sección de Alertas.
+
+#### Eliminar una factura
+
+1. En la tabla del lado derecho, localiza la factura que deseas eliminar.
+2. Haz clic en el ícono de papelera (🗑️) junto a la factura.
+3. Confirma la eliminación.
+
+#### Ver lista de facturas
+
+En la tabla puedes ver:
+- Folio de la factura.
+- Concepto.
+- Fecha.
+- Monto.
+- IVA.
+- Total.
+- Estatus (Pendiente o Pagada).
+- Opciones para editar o eliminar.
+
+---
+
+## Tareas
+
+La sección de Tareas te permite gestionar las tareas y pendientes dentro de la plataforma.
+
+### ¿Qué puedes hacer aquí?
+
+#### Crear una nueva tarea
+
+1. En el formulario del lado izquierdo, completa los siguientes campos:
+   - **Tarea** (obligatorio): Nombre o título de la tarea.
+   - **Estatus** (obligatorio): Selecciona "Pendiente" o "Atendida".
+   - **Vencimiento** (obligatorio): Fecha límite para completar la tarea.
+   - **Prioridad** (obligatorio): Selecciona "Alta", "Media" o "Baja".
+   - **Asignar a**: Selecciona el usuario al que se asignará la tarea (opcional, puede quedar sin asignar).
+   - **Descripción** (obligatorio): Detalles sobre qué se debe hacer.
+
+2. Haz clic en el botón "Agregar" para crear la tarea.
+
+#### Marcar una tarea como completada
+
+Puedes marcar una tarea como completada de dos formas:
+
+**Opción 1: Desde la lista de tareas**
+- En el Dashboard principal, localiza la tarea en la lista.
+- Haz clic en la casilla de verificación junto a la tarea para marcarla como "Atendida".
+
+**Opción 2: Desde la sección de Tareas**
+1. En la tabla, localiza la tarea que deseas actualizar.
+2. Haz clic en el ícono de lápiz (✏️) para editarla.
+3. Cambia el estatus a "Atendida".
+4. Haz clic en "Guardar".
+
+#### Editar una tarea
+
+1. En la tabla del lado derecho, localiza la tarea que deseas editar.
+2. Haz clic en el ícono de lápiz (✏️) junto a la tarea.
+3. Modifica los campos necesarios.
+4. Haz clic en "Guardar" para aplicar los cambios.
+
+#### Eliminar una tarea
+
+1. En la tabla del lado derecho, localiza la tarea que deseas eliminar.
+2. Haz clic en el ícono de papelera (🗑️) junto a la tarea.
+3. Confirma la eliminación.
+
+#### Ver lista de tareas
+
+En la tabla puedes ver:
+- Nombre de la tarea.
+- Usuario asignado (o "Sin asignar").
+- Opciones para editar o eliminar.
+
+---
+
+## Administradores
+
+La sección de Administradores te permite gestionar los abogados y administradores que trabajan en los proyectos.
+
+### ¿Qué puedes hacer aquí?
+
+#### Registrar un nuevo administrador
+
+1. En el formulario del lado izquierdo, completa los siguientes campos:
+   - **Nombre** (obligatorio): Nombre completo del administrador o abogado.
+   - **Email** (obligatorio): Correo electrónico de contacto.
+   - **Teléfono**: Número de teléfono (opcional).
+   - **Descripción**: Información adicional (opcional).
+
+2. Haz clic en el botón "Agregar" para registrar el administrador.
+
+#### Editar un administrador
+
+1. En la tabla del lado derecho, localiza el administrador que deseas editar.
+2. Haz clic en el ícono de lápiz (✏️) junto al administrador.
+3. Modifica los campos necesarios.
+4. Haz clic en "Guardar" para aplicar los cambios.
+
+#### Eliminar un administrador
+
+1. En la tabla del lado derecho, localiza el administrador que deseas eliminar.
+2. Haz clic en el ícono de papelera (🗑️) junto al administrador.
+3. Confirma la eliminación.
+
+**Nota**: No podrás eliminar un administrador si está asignado a proyectos. Primero debes removerlo de los proyectos.
+
+#### Ver lista de administradores
+
+En la tabla puedes ver:
+- Nombre del administrador.
+- Email.
+- Teléfono.
+- Opciones para editar o eliminar.
+
+#### Ver proyectos de un administrador
+
+- Haz clic en el nombre del administrador desde el Dashboard para ver todos los proyectos en los que está asignado.
+
+---
+
+## Administradores de Empresa
+
+La sección de Administradores de Empresa te permite gestionar empresas y fideicomisos asociados a tus clientes.
+
+### ¿Qué puedes hacer aquí?
+
+#### Registrar una nueva empresa
+
+1. En el formulario del lado izquierdo, completa los siguientes campos:
+   - **Nombre** (obligatorio): Nombre de la empresa o fideicomiso.
+   - **Propietario** (obligatorio): Selecciona el cliente propietario de la empresa.
+   - **Administradores**: Agrega uno o más administradores de la empresa:
+     - Haz clic en "Agregar Administrador".
+     - Ingresa el nombre del administrador.
+     - Puedes agregar múltiples administradores.
+     - Para eliminar un administrador, haz clic en el ícono de papelera junto a su nombre.
+   - **Comisarios**: Agrega uno o más comisarios (opcional):
+     - Haz clic en "Agregar Comisario".
+     - Ingresa el nombre del comisario.
+     - Puedes agregar múltiples comisarios.
+     - Para eliminar un comisario, haz clic en el ícono de papelera junto a su nombre.
+   - **Descripción**: Información adicional sobre la empresa (opcional).
+
+2. Haz clic en el botón "Agregar" para registrar la empresa.
+
+#### Editar una empresa
+
+1. En la tabla del lado derecho, localiza la empresa que deseas editar.
+2. Haz clic en el ícono de lápiz (✏️) junto a la empresa.
+3. Modifica los campos necesarios.
+4. Puedes agregar o eliminar administradores y comisarios.
+5. Haz clic en "Guardar" para aplicar los cambios.
+
+#### Eliminar una empresa
+
+1. En la tabla del lado derecho, localiza la empresa que deseas eliminar.
+2. Haz clic en el ícono de papelera (🗑️) junto a la empresa.
+3. Confirma la eliminación.
+
+#### Ver lista de empresas
+
+En la tabla puedes ver:
+- Nombre de la empresa.
+- Propietario (cliente).
+- Administradores asociados.
+- Opciones para editar o eliminar.
+
+---
+
+## Consejos y Mejores Prácticas
+
+### Organización de documentos
+
+- **Siempre asigna una fecha de vigencia** a los documentos importantes para que el sistema pueda generar alertas automáticas.
+- **Selecciona el tipo de documento correcto** para facilitar las búsquedas y filtros.
+- **Usa la descripción** para agregar información adicional que pueda ser útil más adelante.
+
+### Gestión de facturas
+
+- **Actualiza el estatus de las facturas** regularmente para mantener las métricas financieras actualizadas.
+- **Registra el IVA por separado** para tener un mejor control contable.
+
+### Uso de tareas
+
+- **Asigna prioridades** según la urgencia real de cada tarea.
+- **Asigna tareas a usuarios específicos** para distribuir mejor el trabajo.
+- **Marca las tareas como completadas** tan pronto como las termines.
+
+### Revisión de alertas
+
+- **Revisa la sección de Alertas diariamente** para identificar situaciones que requieren atención.
+- **Prioriza los documentos vencidos** y los que están próximos a vencer.
+- **Contacta a los clientes con facturas pendientes** para agilizar los pagos.
+
+### Navegación
+
+- **Usa las migas de pan** (breadcrumbs) en la parte superior para navegar fácilmente entre secciones.
+- **Haz clic en los nombres** de clientes, proyectos y documentos para acceder rápidamente a su información detallada.
+
+---
+
+## Preguntas Frecuentes
+
+### ¿Puedo eliminar un cliente que tiene proyectos asociados?
+
+No. El sistema no permite eliminar un cliente si tiene proyectos, facturas o empresas asociadas. Primero debes eliminar o reasignar esos elementos.
+
+### ¿Cómo cambio el estatus de una factura de "Pendiente" a "Pagada"?
+
+Edita la factura haciendo clic en el ícono de lápiz y cambia el campo "Estatus" a "Pagada", luego guarda los cambios.
+
+### ¿Puedo subir documentos en otros formatos además de PDF y JPG?
+
+Actualmente el sistema acepta archivos en formato PDF y JPG. Si necesitas subir otro tipo de archivo, contacta al soporte técnico.
+
+### ¿Qué pasa si olvido asignar una fecha de vigencia a un documento?
+
+El documento se guardará correctamente, pero no aparecerá en las alertas de vencimientos. Es recomendable asignar fechas de vigencia a todos los documentos importantes.
+
+### ¿Cómo veo todos los proyectos de un cliente específico?
+
+Haz clic en el nombre del cliente desde el Dashboard o desde cualquier lista. Esto te llevará a una vista que muestra todos sus proyectos.
+
+### ¿Puedo crear subproyectos dentro de un proyecto?
+
+Sí. Cuando estés viendo un proyecto específico, verás una pestaña de "Subproyectos" donde puedes crear proyectos relacionados.
+
+---
+
+## Soporte
+
+Si tienes dudas o necesitas ayuda adicional, contacta al equipo de soporte técnico.
+
+---
+
+*Última actualización: 2025*
+
