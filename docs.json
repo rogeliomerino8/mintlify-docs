@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "ROBIK - Sistema de Gestión Inmobiliaria",
+  "name": "ROBIK - Sistema para Despachos Corporativos",
   "colors": {
     "primary": "#FF3668",
     "light": "#FF5C85",
@@ -11,19 +11,21 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Guías",
         "groups": [
           {
             "group": "Inicio",
             "pages": [
               "index",
               "quickstart",
-              "documentacion/docs"
+              "documentacion/guia-completa-admin",
+              "documentacion/guia-abogado"
             ]
           },
           {
             "group": "Videos Tutoriales",
             "pages": [
+              "videos-tutoriales/chatea-con-robik",
               "videos-tutoriales",
               "videos-tutoriales/cerrar-chat"
             ]
@@ -47,9 +49,16 @@
     }
   },
   "logo": {
-    "light": "/images/logoconfondonegro.png",
-    "dark": "/images/logofondoblanco.png",
-    "height": 80
+    "light": "/images/logograndenegro.png",
+    "dark": "/images/logoblancogrande.png"
+  },
+  "styling": {
+    "codeblock": {
+      "background": "#0d0d0d"
+    }
+  },
+  "modeToggle": {
+    "default": "dark"
   },
   "navbar": {
     "links": [

@@ -1,9 +1,10 @@
 /* Estilos personalizados para aumentar el tamaño del logo */
-[data-mint-logo] img,
+[data-testid="navbar-logo"] img,
+nav img[src*="logo"],
+header img[src*="logo"],
 .mint-logo img,
-nav[data-mint-nav] img[src*="logo"] {
-  height: 60px !important;
+a[href="/"] img {
+  height: 50px !important;
+  max-height: 50px !important;
   width: auto !important;
-  max-height: 60px !important;
 }
-
