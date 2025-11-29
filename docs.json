@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "ROBIK - Sistema para Despachos Corporativos",
   "colors": {
-    "primary": "#FF3668",
-    "light": "#FF5C85",
-    "dark": "#E6205A"
+    "primary": "#3B82F6",
+    "light": "#60A5FA",
+    "dark": "#2563EB"
   },
   "favicon": "/favicon.svg",
   "navigation": {
